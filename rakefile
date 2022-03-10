@@ -1,0 +1,3 @@
+task :clean do
+    puts 'Cleaning...'
+end
