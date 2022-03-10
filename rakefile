@@ -1,3 +1,5 @@
-task :clean do
-    puts 'Cleaning...'
+task :default => [:sync]
+
+task :sync do
+    ruby "sync.rb"
 end
