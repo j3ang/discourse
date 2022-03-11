@@ -22,3 +22,5 @@ class SyncScripts
     end
 
 end
+
+SyncScripts.new.perform
