@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require 'mysql2'
 
 class SyncScripts
