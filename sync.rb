@@ -5,12 +5,12 @@ require 'mysql2'
 class SyncScripts
 
     def initialize
-        # @client = Mysql2::Client.new(
-        #     host: BB_PRESS_HOST,
-        #     username: BB_PRESS_USER,
-        #     database: BB_PRESS_DB,
-        #     password: BB_PRESS_PW,
-        # )
+        @client = Mysql2::Client.new(
+            host: DB_HOST,
+            username: DB_USER,
+            database: DB_DB,
+            password: DB_PW,
+        )
     end
 
     def execute
